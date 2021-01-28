@@ -1,4 +1,4 @@
-public class hd_1192 {
+public class hd_1197 {
     public static void main(String[] args) {
         for (int i = 1000; i < 10000; i++) {
             if (turn(16, i) == turn(12, i) && turn(10, i) == turn(16, i)) System.out.println(i);

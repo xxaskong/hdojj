@@ -4,11 +4,11 @@ import static java.lang.Math.pow;
 
 public class text1 {
     public static void main(String[] args) {
-        int x,y;
-        x=0;
-        y=0;
-        if(x!=0||y!=0) System.out.println("1");
-
-
+        int count=0;
+      String a="1234bbabdsadg";
+        for (int i = 0; i < a.length(); i++) {
+            if(a.charAt(i)>=48&&a.charAt(i)<57)count++;
+        }
+        System.out.println(count);
     }
 }
